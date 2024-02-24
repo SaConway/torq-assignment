@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #000;
+  --clr-secondary: #fff;
+  --clr-tertiary: #ddd;
+  --clr-accent: #04a7f7;
+  --clr-error: #ff0000;
+  --border-radius: 4px;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--clr-primary);
+}
+
+input,
+button {
+  border-radius: var(--border-radius);
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  font: inherit;
+}
